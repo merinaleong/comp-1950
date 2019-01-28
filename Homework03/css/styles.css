@@ -1,0 +1,66 @@
+body
+{
+    font-family: "Sans-serif";
+}
+
+/* logo CSS */
+.logo img
+{
+    width: 20%;
+    display: block;
+    margin: auto;
+}
+
+
+/* navigation bar CSS */
+.navbar ul
+{
+    list-style-type: none;
+    padding: 0px;
+    overflow: auto;
+    background-color: #21C59C;
+    position: static;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+.navbar a
+{
+    display: block;
+    text-align: center;
+    padding: 5px 35px;
+    text-decoration: none;
+    color: white;
+    float: left;
+}
+
+.navbar a:hover
+{
+    background-color: white;
+    color: black;
+}
+
+#active
+{
+    background-color: white;
+    color: black;
+}
+
+/* about me CSS */
+.about p
+{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.about ul
+{
+    list-style-type: square;
+    padding-left: 180px;
+}
+
+.about a
+{
+    text-decoration: none;
+    color: black;
+}

@@ -1,0 +1,47 @@
+body {
+    font-family: "Sans-serif";
+}
+
+/* logo CSS */
+.logo img {
+    margin: auto;
+    float: left;
+    margin-top: 5%;
+    margin-left: 4%;
+    width: 20%;
+    display: block;
+}
+
+/* navigation bar CSS */
+.navbar ul {
+    list-style-type: none;
+    position: static;
+    margin-top: 10%;
+    border-radius: 2%;
+}
+
+.navbar a {
+    float: left;
+    text-align: center;
+    padding: 1% 2.5%;
+    text-decoration: none;
+    color: black;
+}
+
+.navbar a.active {
+    color: white;
+    background-color: #21C59C;
+}
+
+.navbar a:hover {
+    color: #21C59C;
+}
+
+/* about me CSS */
+.about {
+    width: 65%;
+    margin-left: 28%;
+    margin-right: auto;
+    margin-top: 6%;
+    margin-bottom: 5%;
+}
